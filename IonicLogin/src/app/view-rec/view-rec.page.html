@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>All Records</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+     
+  <div style="align-content: center">
+     <ul *ngFor="let users of data">
+      <ion-list>
+      <strong>User Name</strong>   -  {{users.firstName}}
+     </ion-list>
+     <ion-list>
+     <strong>User Password</strong>   -  {{users.password}}
+     </ion-list>
+     </ul>
+</div>
+
+</ion-content>

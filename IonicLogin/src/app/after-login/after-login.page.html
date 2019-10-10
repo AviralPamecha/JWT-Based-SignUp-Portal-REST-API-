@@ -1,0 +1,16 @@
+<ion-header *ngIf="show">
+  <ion-toolbar>
+    <ion-title>afterLogin</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="show">
+  <div>
+  <h1>Welcome User</h1>
+  <div style="align-self: center">
+    <ion-button (click) ="logout()">Logout</ion-button>
+    <ion-button style="margin-left: 1000px" (click) ="logout()">My Profile</ion-button>
+  </div>
+</div>
+
+</ion-content>
